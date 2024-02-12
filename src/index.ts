@@ -7,7 +7,7 @@ import fs from 'fs';
 const PATH_TO_KEYPAIR = ""; // Complete this
 const NEW_AUTHORITY = publicKey("HVx4oW785bu8QDQ8AwSVfD7H4iuH51ttakc2G5f9XTX8"); // Pyth DAO authority
 const PYTH_TOKEN_MINT = publicKey("HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"); // Pyth token address
-const RPC_URL = "https://mainnet.helius-rpc.com/?api-key=e10bb1b9-db24-4649-a214-9d1dd324d7df";
+const RPC_URL = "https://api.mainnet-beta.solana.com";
 
 async function main(){
     const umi = createUmi(RPC_URL);
