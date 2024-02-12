@@ -26,7 +26,7 @@ To get started with the Solana Token Metadata Authority Transfer Script, follow 
 
 Before running the program, ensure `NEW_AUTHORITY` in `index.ts` is set to the authority who you wish to make the new update authority.
 
-You will also need to provide the path to the current's authority keypair as `PATH_TO_KEYPAIR` in `index.ts`.
+You will also need to provide the path to the current authority's keypair as `PATH_TO_KEYPAIR` in `index.ts`.
 
 ## Running the Program
 
