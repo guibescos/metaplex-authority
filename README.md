@@ -7,13 +7,13 @@ To get started with the Solana Token Metadata Authority Transfer Script, follow 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/guibescos/metaplex-authority.git
    ```
 
 2. Navigate to the cloned repository's directory:
 
    ```bash
-   cd <repository-name>
+   cd metaplex-authority
    ```
 
 3. Install the required npm packages:
@@ -24,7 +24,8 @@ To get started with the Solana Token Metadata Authority Transfer Script, follow 
 
 ## Configuration
 
-Before running the program, ensure `NEW_AUTHORITY` in `index.ts` is set to the authority who wish to make the new update authority.
+Before running the program, ensure `NEW_AUTHORITY` in `index.ts` is set to the authority who you wish to make the new update authority.
+
 You will also need to provide the path to the current's authority keypair as `PATH_TO_KEYPAIR` in `index.ts`.
 
 ## Running the Program
