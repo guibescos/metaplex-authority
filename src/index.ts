@@ -4,12 +4,10 @@ import { publicKey } from "@metaplex-foundation/umi-public-keys";
 import { createSignerFromKeypair, signerIdentity, signerPayer } from "@metaplex-foundation/umi";
 import fs from 'fs';
 
-
-const NEW_AUTHORITY = publicKey("upg8KLALUN7ByDHiBu4wEbMDTC6UnSVFSYfTyGfXuzr");
-const PATH_TO_KEYPAIR = "~";
+const PATH_TO_KEYPAIR = ""; // Complete this
+const NEW_AUTHORITY = publicKey("HVx4oW785bu8QDQ8AwSVfD7H4iuH51ttakc2G5f9XTX8");
 const PYTH_TOKEN_MINT = publicKey("HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3");
-const RPC_URL = "https://api.devnet.solana.com";
-
+const RPC_URL = "https://mainnet.helius-rpc.com/?api-key=e10bb1b9-db24-4649-a214-9d1dd324d7df";
 
 async function main(){
     const umi = createUmi(RPC_URL);
